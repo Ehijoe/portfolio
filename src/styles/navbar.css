@@ -1,0 +1,11 @@
+.nav-link {
+	height: 100%;
+}
+
+.nav-link:hover {
+	background-color: blue;
+}
+
+.active-tab {
+	border-bottom: 2px solid darkblue;
+}
