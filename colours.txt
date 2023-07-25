@@ -1,0 +1,12 @@
+// Colour Scheme
+
+
+["#016bb8", "#319fe8", "#fec972", "#fee3b3"]
+
+dark blue: rgb(1, 107, 184)
+
+light blue: rgb(49, 159, 232)
+
+strong yellow: rgb(254, 201, 114)
+
+light yellow: rgb(254, 227, 179)

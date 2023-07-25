@@ -1,0 +1,21 @@
+.navLink {
+	height: 100%;
+}
+
+.navLink:hover {
+	background-color: rgba(0, 0, 255, 0.2);
+	transition-duration: 200ms;
+}
+
+.activeTab {
+	border-bottom: 2px solid darkblue;
+}
+
+.navbar {
+	background-color: rgba(50, 50, 200, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: top 0.3s;
+	width: 1vw;
+}

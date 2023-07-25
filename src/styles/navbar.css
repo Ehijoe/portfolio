@@ -1,11 +1,11 @@
-.nav-link {
+.navlink {
 	height: 100%;
 }
 
-.nav-link:hover {
+.navlink:hover {
 	background-color: blue;
 }
 
-.active-tab {
+.activetab {
 	border-bottom: 2px solid darkblue;
 }
