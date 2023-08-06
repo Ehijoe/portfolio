@@ -3,16 +3,16 @@
 }
 
 .navLink:hover {
-	background-color: rgba(0, 0, 255, 0.2);
+	background-color: rgba(1, 107, 184, 0.3);
 	transition-duration: 200ms;
 }
 
 .activeTab {
-	border-bottom: 2px solid darkblue;
+	border-bottom: 2px solid rgb(1, 107, 184);
 }
 
 .navbar {
-	background-color: rgba(50, 50, 200, 0.1);
+	background: linear-gradient(30deg, rgba(1, 107, 184, 0.3) 0, rgba(254, 201, 114, 0.3) 40%, rgba(254, 227, 179, 0.3) 60%, rgba(1, 107, 184, 0.3));
 	position: fixed;
 	top: 0;
 	left: 0;

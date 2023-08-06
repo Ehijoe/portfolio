@@ -1,14 +1,54 @@
 .heroSectionStyle {
 	border-radius: 0.5rem;
-	background-color: rgba(200, 200, 250, 0.8);
-	padding: 1rem;
-	margin: 1rem;
-	max-width: 50rem;
-	margin: 5rem auto;
+	background-color: rgba(254, 227, 179, 0.8);
+	padding: 0 10rem;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.heroImage {
+	border-radius: 50%;
+	max-width: 40%;
+}
+
+.title {
+	color: rgb(1, 107, 184);
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.1;
 }
 
 .nameStyle {
-	color: blue;
-	text-align: center;
+	color: rgb(1, 107, 184);
+	font-weight: 900;
 	font-size: 2rem;
+	line-height: 0.9;
+}
+
+.description {
+	width: 40%;
+}
+
+@media (max-width: 1000px) {
+	.description {
+		width: 100%;
+	}
+
+	.heroImage {
+		max-width: 100%;
+		width: 100%;
+		margin-top: 5rem;
+	}
+
+	.nameStyle {
+		font-size: 5vw;
+	}
+
+	.title {
+		font-size: 5vw;
+	}
+
+	.heroSectionStyle {
+		padding: 10%;
+	}
 }

@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { navLink, activeTab, navbar } from './Navbar.module.css';
 
 function Navbar({ active }) {
-	const links = ['home', 'projects', 'resume'].map((tab) => {
+	const links = ['home', 'projects', 'contact'].map((tab) => {
 		return (
 			<Link key={tab} className={`${navLink} w-32 flex justify-center items-center text-center` + ((tab === active) ? ` ${activeTab}` : '')}
 							to={'/' + ((tab !== 'home') ? tab : "")}>

@@ -12,39 +12,6 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
       <HeroSection />
-      <SectionTitle>Projects</SectionTitle>
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-<HeroSection />
-
-<HeroSection />
-<HeroSection />
-<HeroSection />
-
     </div>
   )
 }

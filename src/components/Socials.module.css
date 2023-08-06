@@ -1,0 +1,10 @@
+.linkImage {
+	width: 35px;
+	padding: 5px;
+}
+
+.linkImage:hover {
+	transform: rotate(1turn);
+	transition: 400ms;
+	padding: 0;
+}
