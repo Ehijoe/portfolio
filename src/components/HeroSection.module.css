@@ -9,6 +9,7 @@
 .heroImage {
 	border-radius: 50%;
 	max-width: 40%;
+	margin-top: 4rem;
 }
 
 .title {
@@ -16,17 +17,21 @@
 	font-weight: 900;
 	font-size: 3rem;
 	line-height: 1.1;
+	font-family: Lato, Arial;
 }
 
 .nameStyle {
+	margin-top: 4rem;
 	color: rgb(1, 107, 184);
 	font-weight: 900;
 	font-size: 2rem;
 	line-height: 0.9;
+	font-family: Lato, Arial;
 }
 
 .description {
 	width: 40%;
+	font-family: Raleway, Helvetica;
 }
 
 @media (max-width: 1000px) {

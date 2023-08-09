@@ -1,15 +1,18 @@
 .buttonStyle {
 	height: min-content;
-	width: min-content;
+	width: fit-content;
 	border: solid 2px rgb(49, 159, 232);
 	color: rgb(1, 107, 184);
-	font-weight: 700;
+	font-weight: 900;
+	font-family: Lato, Arial;
 	border-radius: 5%;
+	padding: 0.25rem;
+	margin: 0 auto;
 }
 
 .buttonStyle:hover {
 	background-color: rgba(1, 107, 184, 0.7);
 	color: rgb(254, 201, 114);
-	font-weight: 700;
+	font-weight: 900;
 	transition-duration: 300ms;
 }
